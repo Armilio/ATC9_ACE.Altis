@@ -32,8 +32,8 @@ ATC_sectorCheckerDelay = 4;
     ]
 */
 ATC_sectorDifficultyParams = [
-    ["_timeKept <= 60*60", 0, 4, 6],
-    ["_timeKept > 60*60", 1, 4, 8]
+    ["_timeKept <= 60*60", 0, 6, 10],
+    ["_timeKept > 60*60", 1, 6, 12]
 ];
 ATC_SectorCountdown=60*4; //added by Armilio atc9
 
