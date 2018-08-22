@@ -2915,7 +2915,7 @@ class CfgAmmo
 	class ammo_Penetrator_MRAAWS: ammo_Penetrator_Base
 	{
 		caliber=33.333302;
-		warheadName="TandemHEAT";
+		warheadName="HEAT";
 		hit=435.92999;
 	};
 	class ammo_Penetrator_RPG32V: ammo_Penetrator_Base
