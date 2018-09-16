@@ -64,8 +64,8 @@ ATC_limitedWeaponCrateParamsB = [
 	[["tf_mr3000",25],["ACE_TacticalLadder_Pack",10],["B_Parachute", 15], ["B_FieldPack_ocamo", 20], ["B_TacticalPack_ocamo", 20], ["B_Carryall_cbr", 20]]
 ];
 
-ATC_basicLoadoutsA = call compile preprocessFileLineNumbers "config\basicLoadoutsA.sqf";
-ATC_basicLoadoutsB = call compile preprocessFileLineNumbers "config\basicLoadoutsB.sqf";
+//ATC_basicLoadoutsA = call compile preprocessFileLineNumbers "config\basicLoadoutsA.sqf";
+//ATC_basicLoadoutsB = call compile preprocessFileLineNumbers "config\basicLoadoutsB.sqf";
 
 ATC_loadoutParamsA = call compile preprocessFileLineNumbers "config\loadoutParamsA.sqf";
 ATC_loadoutParamsB = call compile preprocessFileLineNumbers "config\loadoutParamsB.sqf";

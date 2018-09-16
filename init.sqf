@@ -31,6 +31,7 @@ waitUntil {time > 0};
 ATC_gameStarted = true;
 
 call compile preprocessFileLineNumbers "functions\init_client.sqf";
+call compile preprocessFileLineNumbers "functions\init_clientInventory.sqf";
 
 tf_no_auto_long_range_radio = true;
 tf_west_radio_code = "_bluefor";

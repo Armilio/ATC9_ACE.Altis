@@ -11,7 +11,7 @@ _arg_vehicleRestrictions = _this select 1;
 _vehicles = [];
 _restrictions = [];
 
-if (count _unitClasses > 0 && {count _arg_vehicleRestrictions > 0}) then {
+if (!(_unitClasses isEqualTo []) && {count _arg_vehicleRestrictions > 0}) then {
     {
         if ((_x select 0) in _unitClasses) then {
             {

@@ -1,6 +1,7 @@
 /**
+* NOT_USED
 * ATC_fnc_fillCrateVA
-*
+* NOT_USED
 * @author {BDR}Armilio
 * @param object _this Crate object 
 * @return void
@@ -8,7 +9,7 @@
 private "_arg_crate";
 _arg_crate = _this select 0;
 
-//ADDED BY FLIPPER 
+
 _limitedAmmo = ["DemoCharge_Remote_Mag","ATMine_Range_Mag","APERSMine_Range_Mag","APERSTripMine_Wire_Mag","ClaymoreDirectionalMine_Remote_Mag", "RPG32_HE_F", "ATC_RPG32_F", "tf47_m3maaws_HEAT", "tf47_m3maaws_HEDP", "Titan_AA", "ATC_MAG_Titan_AT", "ATC_MAG_Titan_AT_B", "Titan_AP"];
 //
 
@@ -30,7 +31,7 @@ _arg_allItems = _this select 4;
 [vabox,_arg_weapons,false,true] call BIS_fnc_addVirtualWeaponCargo;
 
 {
-	//ADDED BY FLIPPER    
+	   
 	if (!(_x in _limitedAmmo)) then { 
 		[vabox,_x,false,true] call BIS_fnc_addVirtualMagazineCargo;
 	};

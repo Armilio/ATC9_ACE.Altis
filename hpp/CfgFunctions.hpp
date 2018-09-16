@@ -74,9 +74,9 @@ class ATC
 	};
 	class Weapons
 	{
-		class getItemsListByClasses
+		class getInvData
 		{
-			file = "functions\weapons\fnc_getItemsListByClasses.sqf";
+			file = "functions\weapons\fnc_getInvData.sqf";
 		};
 		class getLimitedItemsList
 		{
